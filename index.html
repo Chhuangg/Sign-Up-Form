@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up Form</title>
+        <link href="./style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <header>
+            <h1>GRC Staff Application</h1>
+        </header>
+ 
+        <div class="images">
+            <img alt="CampusImg" src="https://www.greenriver.edu/international/media/images/slider-images/ip-slide-salish-hall.jpg">
+            <img alt="FalcultyImg" src="https://scontent-sea1-1.xx.fbcdn.net/v/t39.30808-6/509436625_1292429632891694_7823395410820017176_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=jO-C6N3PQ-cQ7kNvwEzzGue&_nc_oc=AdlLswVmQVwRTZg7ZiLnf-u1-H__jsOhiK6OJL0v0tZRif7D6H0wyhXQELBL_TS7a0E&_nc_zt=23&_nc_ht=scontent-sea1-1.xx&_nc_gid=EZfoPfV-Ehj8gWPNm-xZcw&oh=00_Afd8u3G52QldnyqAwAbvBFxDjOYdQKs719Hi0VWUjmLC2g&oe=6905A1C7">
+            <img alt="StudentImg" src="https://www.greenriver.edu/international/media/images/staff-faculty-graduation-2017.jpg">
+        </div>
+        
+
+        <h2>Quick Form: Professor</h2>
+
+        <form action="https://script.google.com/macros/s/AKfycbz6cewkwC6P68-qotOokhBb_v1Zxr3aozRItX-rFramd4p_7R3XzwHLj7o1mN-6Okez/exec" method="post">
+            
+            <label for="yourName">Name: </label>
+            <input id="yourName" name="Name" type="text">
+            <label for="yourAge">Age: </label>
+            <input id="yourAge" name="Age" type="number">
+            
+            <div>
+            Gender: 
+            <input id="maleOption" type="radio" name="Gender" value="Male"> 
+            <label for="maleOption">Male</label>
+            <input id="femaleOption" type="radio" name="Gender" value="Female"> 
+            <label for="femaleOption">Female</label>
+            <input id="otherOption" type="radio" name="Gender" value="Other"> 
+            <label for="otherOption">Other</label>
+            </div>
+            
+            <label for="departmentSelector">Department</label>
+            <select id="departmentSelector">
+                <option value="cs">Computer Science</option>
+                <option value="bio">Biology</option>
+                <option value="bus">Business</option>
+                <option value="psy">Psychology</option>
+                <option value="eng">Engineering</option>
+                <option value="art">Art & Design</option>
+                <option value="otherDep">Other</option>
+            </select>
+
+            <label for="campusSelector">Campus:</label>
+            <select id="campusSelector" name="campus">
+                <option value="main">Main Campus</option>
+                <option value="enumclaw">Enumclaw Campus</option>
+                <option value="auburn">Auburn Center Campus</option>
+                <option value="kent">Kent Campus</option>
+            </select>
+
+            <div><br> 
+                <h3>Background</h3>
+                <ul>
+                    <li>
+                    <label for="yourEducation">Highest Education(degree): </label>
+                    <input id="yourEducation" name="Education" type="text">
+                    </li>
+
+                    <li>
+                        <label for="previousJob1">Previous Jobs #1: </label>
+                        <input id="previousJob1" name="oldJob1" type="text">
+                        <input type="date" name="startDate1"/> to <input type="date" name="endDate1"/> <!--new input-->
+                    </li>
+
+                    <li>
+                        <label for="previousJob1">Previous Jobs #2: </label>
+                        <input id="previousJob2" name="oldJob2" type="text">
+                        <input type="date" name="startDate2"/> to <input type="date" name="endDate2"/>
+                    </li>
+                </ul>
+            </div>
+
+
+
+            <div><button type="submit">Submit</button></div>
+        </form>
+
+    </body>
+</html>
