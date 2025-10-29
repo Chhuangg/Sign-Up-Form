@@ -1,16 +1,17 @@
-header {
+#header {
     color: rgb(255, 255, 255);
     -webkit-text-stroke: 2px rgb(74, 94, 67); /*add text outline*/
     background-color: rgb(108, 179,62);
-    padding: 15px;
-    text-align: center;
-    font-size: 24px;
+    padding: 59px;
+    margin: 10px;
     border-radius: 25px;
+    text-align: center;
+    font-size: 58px;
     
     background-image: url("https://s3.amazonaws.com/file.imleagues/Images/Intramurals/Uploaded/201506/2015610171747.png");   
     background-repeat: no-repeat; 
     background-position: left;    
-    background-size: 15cap;
+    background-size: 300px;
 }
 
 body{
